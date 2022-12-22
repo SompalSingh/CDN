@@ -1,0 +1,61 @@
+:root {
+  --ds-font-family-body: 'hcltech_roobertregular', Arial;
+  --ds-font-family-headings:'hcltech_roobertsemibold', Arial ;
+
+  --ds-font-size-body: 16px;
+  --ds-font-size-headings: 20px;
+  --ds-font-weight-normal:400;
+  --ds-font-weight-bold:600;
+  --ds-line-height:1.5;
+  
+  --ds-primary-purple: #5F1EBE;
+  --ds-primary-purple-hover: #4C189E;
+  --ds-label-color: #6C7882;
+  --ds-border-color: #CCCCCC;
+  --ds-white: #FFFFFF;
+
+  --ds-spacing-small: 4px;
+  --ds-spacing-medium: 8px;
+  --ds-spacing-large: 12px;
+  --ds-spacing-x-large: 16px;
+
+  --ds-radius-small: 4px;
+  --ds-radius-medium: 4px;
+  --ds-radius-large: 8px;
+  --ds-radius-circle: 50%;
+
+  --body-bg:#e9f1fe;
+ 
+  }
+
+
+  @font-face {
+    font-family: 'hcltech_roobertregular';
+    src: url('../fonts/hcltechroobert-regular-webfont.woff2') format('woff2'), url('../fonts/hcltechroobert-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'hcltech_roobertmedium';
+    src: url('../fonts/hcltechroobert-medium-webfont.woff2') format('woff2'), url('../fonts/hcltechroobert-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'hcltech_roobertlight';
+    src: url('../fonts/hcltechroobert-light-webfont.woff2') format('woff2'), url('../fonts/hcltechroobert-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'hcltech_roobertsemibold';
+    src: url('../fonts/hcltechroobert-semibold-webfont.woff2') format('woff2'), url('../fonts/hcltechroobert-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'hcltech_roobertbold';
+    src: url('../fonts/hcltechroobert-bold-webfont.woff2') format('woff2'), url('../fonts/hcltechroobert-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
